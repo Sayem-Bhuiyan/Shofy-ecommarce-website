@@ -164,6 +164,23 @@ select:focus {
     align-items: center;
 }
 
+/* navbar section */
+.nav-button {
+    padding: 12px 30px;
+    background-color: #0989ff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: background-color .3s;
+}
+.nav-button:hover {
+    background-color: black;
+}
+.nav-button >span {
+    margin-right: 7px;
+}
+
 
 
 
