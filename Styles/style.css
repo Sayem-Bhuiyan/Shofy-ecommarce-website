@@ -187,6 +187,9 @@ select:focus {
     .header-section {
         display: none;
     }
+    .header-search-box, .header-pannel-icon {
+        display: none;
+    }
 }
 
 
@@ -200,6 +203,9 @@ select:focus {
 /* responsive styles for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .header-section {
+        display: none;
+    }
+    .header-search-box, .header-pannel-icon {
         display: none;
     }
 }
