@@ -306,6 +306,9 @@ select:focus {
         flex-direction: column;
         height: auto;
     }
+    .slider-description {
+        font-size: 1.2rem;
+    }
     .slider-title {
         font-size: 3rem;
     }
@@ -340,5 +343,28 @@ select:focus {
     /* navbar */
     .navbar {
         display: none;
+    }
+
+    /* slider-section */
+    .slider-section {
+        height: auto;
+    }
+    .slider-description {
+        font-size: 1.3rem;
+    }
+    .slider-title {
+        font-size: 3.5rem;
+    }
+    .slider-offer {
+        font-size: 1.8rem;
+    }
+    .slider-content {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .slider-img > img {
+        width: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
