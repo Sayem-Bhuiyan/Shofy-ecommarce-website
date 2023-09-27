@@ -230,6 +230,49 @@ select:focus {
     font-weight: 500;
 }
 
+/* slider section styles */
+.slider-section {
+    height: 516px;
+    width: 100%;
+    background-color: #115061;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slider-description {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.slider-title {
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.slider-offer {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Oregano', cursive;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.slider-offer>span {
+    color: #ffd43a;
+}
+.slider-button {
+    background-color: #fff;
+    color: #010f1c;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 2px rgba(1,15,28,.1);
+    padding: 13px 29px;
+    border-radius: 6px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
 
 
 
