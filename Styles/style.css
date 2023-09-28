@@ -419,6 +419,12 @@ select:focus {
     .catagory {
         flex-direction: column;
     }
+
+    /* service section */
+    .service-section {
+        flex-wrap: wrap;
+        margin: 60px auto;
+    }
 }
 
 
@@ -467,5 +473,11 @@ select:focus {
     /* catagory section */
     .catagory {
         flex-wrap: wrap;
+    }
+
+     /* service section */
+     .service-section {
+        flex-wrap: wrap;
+        margin: 60px auto;
     }
 }
