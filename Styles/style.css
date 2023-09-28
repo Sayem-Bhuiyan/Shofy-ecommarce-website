@@ -315,12 +315,23 @@ select:focus {
     color: #010f1c;
     font-weight: 600;
     margin-bottom: 7px;
+    transition: color .3s ease-in;
 }
 .col-description {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 26px;
     color: #55585b;
+}
+.col-img {
+    transition: transform 0.4s ease-in;
+}
+/* catagory hover styles */
+.col-img-box:hover .col-img {
+    transform: scale(1.2);
+}
+.col-title:hover {
+    color: #3498db;
 }
 
 
