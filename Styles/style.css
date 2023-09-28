@@ -392,6 +392,14 @@ select:focus {
 }
 
 /* product section */
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 60px auto;
+}
 .product {
     height: 414.188px;
     width: 246px;
@@ -411,7 +419,7 @@ select:focus {
 .product-img {
     height: 100%;
     width: 100%;
-    transition: all 0.5s ease-in;
+    transition: all 0.4s ease-in;
 }
 .product-badge {
     font-size: 14px;
@@ -422,7 +430,7 @@ select:focus {
     padding: 4px 8px 2px;
     text-transform: capitalize;
     position: absolute;
-    margin-right: -175px;
+    margin-left: 157px;
     margin-top: -175px;
 }
 .hot-badge {
@@ -440,6 +448,11 @@ select:focus {
     padding: 4px 8px 2px;
     border-radius: 4px;
 }
+.discount-badge {
+    background-color: #ff6736;
+    padding: 4px 8px 2px;
+    border-radius: 4px;
+}
 .product-action {
     display: flex;
     flex-direction: column;
@@ -448,7 +461,7 @@ select:focus {
     margin-top: 82px;
     box-shadow: 0px 1px 3px rgba(1, 15, 28, 0.14);
     opacity: 0;
-    transition: all 0.5s ease-in;
+    transition: all 0.4s ease-in;
 }
 .product-action >a >i {
     height: 40px;
@@ -461,6 +474,10 @@ select:focus {
     border-bottom: 0;
     text-align: center;
     
+}
+.product-action > a > i:hover {
+    background-color: #0989ff;
+    color: #ffffff;
 }
 .product-content {
     padding: 15px 15px;
@@ -514,6 +531,9 @@ select:focus {
 .product:hover .product-action{
     opacity: 1;
     transform: translateX(-12px);
+}
+.product:hover {
+    box-shadow: 2px 1px 4px rgba(1, 15, 28, 0.14);
 }
 
 
