@@ -572,6 +572,7 @@ select:focus {
     font-weight: 500;
     line-height: 1.29;
     margin-bottom: 30px;
+    transition: all 0.3s ease-in;
 }
 .slider-box-button {
     color: #010f1ce3;
@@ -580,13 +581,29 @@ select:focus {
     font-weight: 600;
     background-color: transparent;
 }
+.slider-box-button>a {
+    transition: all 0.3s ease-in;
+    font-size: 14px;
+}
 .slider-box-button > i {
     color: #010f1c;
+    transition: all 0.3s ease-in;
+    font-size: 14px;
 }
 
 .slider-info {
     padding-left: 40px;
     padding-top: 50px;
+}
+/* second slider hover styles */
+.slider-box-title:hover {
+    color: #0d6efd;
+}
+.slider-box-button:hover a{
+    color: #0d6efd;
+}
+.slider-box-button:hover i {
+    transform: translateX(5px);
 }
 
 
