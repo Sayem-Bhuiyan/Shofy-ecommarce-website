@@ -365,6 +365,32 @@ select:focus {
     line-height: 24px;
 }
 
+/* container heading section */
+.container-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 70px;
+    margin-bottom: 60px;
+}
+
+.nav-item ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.container-heading-title {
+    font-size: 40px;
+    color: #010f1c;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.nav-item > ul > li > a {
+    color: #a0a2a4;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 
 
 
@@ -425,6 +451,16 @@ select:focus {
         flex-wrap: wrap;
         margin: 60px auto;
     }
+
+    /* container heading */
+    .container-heading {
+        flex-direction: column;
+        gap: 15px;
+        margin: auto 25px;
+    }
+    .container-heading-title {
+        font-size: 36px;
+    }
 }
 
 
@@ -479,5 +515,13 @@ select:focus {
      .service-section {
         flex-wrap: wrap;
         margin: 60px auto;
+    }
+
+    /* container heading */
+    .container-heading {
+        flex-direction: column;
+        gap: 25px;
+        margin: auto 100px;
+        align-items: flex-start;
     }
 }
