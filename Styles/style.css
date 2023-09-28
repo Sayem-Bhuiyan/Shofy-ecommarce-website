@@ -549,7 +549,7 @@ select:focus {
 .slider-box-1 {
     background-image: url('../Assets/Images/product-banner-1.jpg');
     height: 100%;
-    width: 55%;
+    width: 750px;
     border-radius: 8px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -557,10 +557,10 @@ select:focus {
 .slider-box-2 {
     background-image: url(../Assets/Images/product-banner-2.jpg);
     height: 100%;
-    width: 30%;
+    width: 450px;
     border-radius: 8px;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
 }
 .slider-box-description {
     font-size: 16px;
@@ -605,7 +605,6 @@ select:focus {
 .slider-box-button:hover i {
     transform: translateX(5px);
 }
-
 
 
 
@@ -675,6 +674,18 @@ select:focus {
     .container-heading-title {
         font-size: 36px;
     }
+
+    /* second-slider section */
+    .slider-section2 {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .slider-box-1, .slider-box-2 {
+        width: 100%;
+    }
+    .slider-info {
+        padding: 30px;
+    }
 }
 
 
@@ -737,5 +748,17 @@ select:focus {
         gap: 25px;
         margin: auto 100px;
         align-items: flex-start;
+    }
+
+    /* second slider section */
+    .slider-section2 {
+        flex-direction: column;
+        margin: 140px auto;
+    }
+    .slider-box-1 {
+        width: 600px;
+    }
+    .slider-info {
+        padding: 35px;
     }
 }
