@@ -287,7 +287,11 @@ select:focus {
 
 /* catagory section */
 .catagory {
-    margin-top: 100px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .col {
     width: 228px;
