@@ -395,7 +395,7 @@ select:focus {
 .product {
     height: 414.188px;
     width: 246px;
-    padding: auto 12px;
+    /* padding: auto 12px; */
     border: .5px solid #e4e5e9;
     box-shadow: 0px 1px 3px rgba(1, 15, 28, 0.14);
     border-radius: 7px;
@@ -411,6 +411,7 @@ select:focus {
 .product-img {
     height: 100%;
     width: 100%;
+    transition: all 0.5s ease-in;
 }
 .product-badge {
     font-size: 14px;
@@ -443,10 +444,11 @@ select:focus {
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-right: -183px;
+    margin-right: -203px;
     margin-top: 82px;
     box-shadow: 0px 1px 3px rgba(1, 15, 28, 0.14);
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in;
 }
 .product-action >a >i {
     height: 40px;
@@ -460,8 +462,8 @@ select:focus {
     text-align: center;
     
 }
-.prodcut-content {
-    padding: 15px;
+.product-content {
+    padding: 15px 15px;
 }
 .product-catagory > a{
     font-size: 12px;
@@ -505,6 +507,14 @@ select:focus {
     color: #0989ff;
 }
 
+/* product hover styles */
+.product:hover .product-img {
+    transform: scale(1.15);
+}
+.product:hover .product-action{
+    opacity: 1;
+    transform: translateX(-12px);
+}
 
 
 
