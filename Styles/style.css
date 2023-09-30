@@ -407,6 +407,28 @@ select:focus {
     font-size: 14px;
     font-weight: 500;
 }
+.arrow-button {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgba(1, 15, 28, 0.1);
+    transition: background-color .3s ease-in;
+}
+.arrow-button:hover {
+    background-color: #0d6efd;
+}
+.arrow-button:hover  a {
+    color: white;
+}
+.arrow-button > a {
+    font-size: 20px;
+    line-height: 38px;
+    color: #55585bb5;
+    transition: color .3s ease-in;
+}
 
 /* product section */
 .product-section {
