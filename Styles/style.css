@@ -861,4 +861,14 @@ select:focus {
     .slider-info {
         padding: 35px;
     }
+
+    /* banner section */
+    .banner-section {
+        flex-direction: column;
+        gap: 40px;
+        margin: 50px auto;
+    }
+    .banner-offer-img {
+        margin: 0;
+    }
 }
