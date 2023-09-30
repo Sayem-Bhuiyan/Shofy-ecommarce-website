@@ -504,6 +504,10 @@ select:focus {
     font-weight: 500;
     color: #55585b;
     line-height: 26px;
+    transition: color .25s ease-in;    
+}
+.product-catagory > a:hover {
+    color: #0989ff;
 }
 .product-title {
     font-weight: 500;
@@ -511,6 +515,10 @@ select:focus {
     line-height: 1.33;
     margin-bottom: 7px;
     color: #010f1c;
+    transition: color .25s ease-in;    
+}
+.product-title:hover {
+    color: #0989ff;
 }
 .product-rating {
     display: flex;
