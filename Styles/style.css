@@ -391,6 +391,22 @@ select:focus {
     font-size: 1.25rem;
     font-weight: 400;
 }
+.container-heading-button {
+    background-color: #0989ff;
+    border: none;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: background-color .3s ease-in;
+}
+.container-heading-button:hover {
+    background-color: black;
+}
+.container-heading-button > a , .container-heading-button>i {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 /* product section */
 .product-section {
@@ -679,6 +695,7 @@ select:focus {
     .slider-section2 {
         flex-direction: column;
         margin-top: 150px;
+        margin-bottom: 150px;
     }
     .slider-box-1, .slider-box-2 {
         width: 100%;
