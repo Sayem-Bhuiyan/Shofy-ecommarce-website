@@ -729,6 +729,72 @@ select:focus {
 
 
 
+/* small product section */
+.multi-product-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-row {
+    padding: 15px 20px;
+}
+.row-wrapper {
+    margin-bottom: 25px;
+}
+.multi-product-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #021d35;
+    margin-bottom: 35px;
+}
+.row-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.row-catagory {
+    font-size: 12px;
+    font-weight: 500;
+    color: #55585b;
+    display: block;
+    margin-bottom: 5px;
+    transition: color .3s ease-in;
+}
+.row-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.33;
+    transition: color .3s ease-in;
+}
+.row-review-icon > i {
+    font-size: 12px;
+    color: #ffb21d;
+}
+.row-product-review {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 1;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+.row-review-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+.row-product-price {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #0989ff;
+}
+.row-product-content > a:hover {
+    color: #0989ff;
+}
+
 
 
 
