@@ -888,6 +888,10 @@ select:focus {
 /* story section */
 .story-section {
     margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
 }
 .story-container {
     transition: all 0.3s 0s ease-out;
