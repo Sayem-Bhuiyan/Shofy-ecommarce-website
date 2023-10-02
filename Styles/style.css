@@ -998,7 +998,7 @@ select:focus {
     z-index: 2;
 }
 .subscribe-section-form > form input {
-    height: 60px;
+    height: 58px;
     box-shadow: 0px 1px 2px rgba(1, 15, 28, 0.1);
     border-radius: 8px;
     border: 0;
@@ -1025,6 +1025,105 @@ input[type="email"] {
     border-bottom-right-radius: 8px;
     margin-left: -20px;
 }
+/* foooter section */
+.footer-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px auto;
+}
+.footer-col {
+    margin-bottom: 60px;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #010f1c;
+    margin-bottom: 22px;
+    width: 260px;
+}
+.footer-logo > img {
+    margin-bottom: 18px;
+}
+.footer-col-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.footer-col-icon > a > i {
+    height: 38px;
+    width: 38px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px rgba(1, 15, 28, 0.2);
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+.footer-col-icon > a >i:hover {
+    background-color: #0989ff;
+    color: #ffffff;
+}
+.footer-col-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #010f1c;
+    margin-bottom: 10px;
+}
+.footer-col-menu > li {
+    margin-bottom: 10px;
+}
+.footer-col-menu > li > a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #55585b;
+    position: relative;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-out;
+}
+.footer-col-menu >li > a:hover {
+    color: #0989FF;
+}
+.got-question {
+    font-size: 14px;
+    color: #55585b;
+    margin-bottom: 8px;
+}
+.footer-contact-number {
+    margin-bottom: 20px;
+}
+.footer-contact-number > a {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: all .3s ease-out;
+}
+.footer-contact-number > a:hover {
+    color: #0989FF;
+}
+.data-box {
+    margin-bottom: 8px;
+}
+.data-box > i{
+    font-size: 18px;
+    color: #010f1c;
+}
+.data-box > a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #55585b;
+    transition: all 0.3s ease-out;
+}
+.data-box > a:hover {
+    color: #0989FF;
+}
+
+
+
 
 
 
