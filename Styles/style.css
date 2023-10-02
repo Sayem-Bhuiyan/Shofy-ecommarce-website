@@ -796,8 +796,12 @@ select:focus {
 }
 
 /* news and article section start */
-article {
-    padding: 20px 15px;
+.article-and-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .date-box {
     position: absolute;
@@ -880,6 +884,9 @@ article {
 .article-button:hover .article-button-link > i {
     color: #ffffff;
 }
+
+/* news and article section */
+
 
 
 
