@@ -994,6 +994,15 @@ select:focus {
         justify-content: flex-start;
         margin-left: 20px;
     }
+
+    /* article and news section */
+    .article-and-news {
+        gap: 25px;
+        margin: 50px auto;
+    }
+    .article-img, .article-description {
+        width: 300px;
+    }
 }
 
 
@@ -1083,6 +1092,14 @@ select:focus {
     /* small product section */
     .multi-product-section {
         justify-content: flex-start;
-        margin-left: 60px;
+        margin-left: 60px; 
+    }
+
+    /* article and news */
+    .article-and-news {
+        margin: 60px auto;
+    }
+    article {
+        margin-bottom: 30px;
     }
 }
