@@ -67,6 +67,7 @@ select:focus {
     display: flex;
     align-items: center;
     border: 2px solid #0989ff;
+    border-radius: 5px;
 }
 .header-search-box >input {
     padding: 14px;
@@ -212,6 +213,10 @@ select:focus {
     font-size: 0.9rem;
     font-weight: 500;
     padding: 11px 0;
+    transition: color .3s ease-out;
+}
+.nav-menu > li > a:hover {
+    color: #0989FF;
 }
 .nav-number {
     display: flex;
